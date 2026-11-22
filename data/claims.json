@@ -1,0 +1,389 @@
+[
+  {
+    "claim_id": "C01",
+    "patient_id": "P001",
+    "plan": "SunCoast Dental PPO",
+    "date_of_service": "2026-11-18",
+    "date_submitted": "2026-11-18",
+    "rendering_provider": "Tasha Nguyen, RDH",
+    "procedures": [
+      {
+        "code": "D0120",
+        "fee": 65
+      },
+      {
+        "code": "D1110",
+        "fee": 110
+      },
+      {
+        "code": "D0274",
+        "fee": 75
+      }
+    ],
+    "attachments": [],
+    "preauth_number": null,
+    "payment_to": "office"
+  },
+  {
+    "claim_id": "C02",
+    "patient_id": "P002",
+    "plan": "SunCoast Dental PPO",
+    "date_of_service": "2026-11-18",
+    "date_submitted": "2026-11-18",
+    "rendering_provider": "Brian Ortega, RDH",
+    "procedures": [
+      {
+        "code": "D1110",
+        "fee": 110
+      }
+    ],
+    "attachments": [],
+    "preauth_number": null,
+    "payment_to": "office"
+  },
+  {
+    "claim_id": "C03",
+    "patient_id": "P003",
+    "plan": "BlueWave Dental HMO",
+    "date_of_service": "2026-11-19",
+    "date_submitted": "2026-11-19",
+    "rendering_provider": "Tasha Nguyen, RDH",
+    "procedures": [
+      {
+        "code": "D1110",
+        "fee": 110
+      }
+    ],
+    "attachments": [],
+    "preauth_number": null,
+    "payment_to": "office"
+  },
+  {
+    "claim_id": "C04",
+    "patient_id": "P004",
+    "plan": "SunCoast Dental PPO",
+    "date_of_service": "2026-11-17",
+    "date_submitted": "2026-11-17",
+    "rendering_provider": "Dr. Marcus Bell",
+    "procedures": [
+      {
+        "code": "D2740",
+        "fee": 1250,
+        "tooth": "3"
+      }
+    ],
+    "attachments": [
+      "pre-op x-ray",
+      "narrative"
+    ],
+    "preauth_number": null,
+    "payment_to": "office"
+  },
+  {
+    "claim_id": "C05",
+    "patient_id": "P005",
+    "plan": "SunCoast Dental PPO",
+    "date_of_service": "2026-11-17",
+    "date_submitted": "2026-11-17",
+    "rendering_provider": "Dr. Marcus Bell",
+    "procedures": [
+      {
+        "code": "D2740",
+        "fee": 1250,
+        "tooth": "14"
+      }
+    ],
+    "attachments": [
+      "pre-op x-ray"
+    ],
+    "preauth_number": "SC-PA-55120",
+    "payment_to": "office"
+  },
+  {
+    "claim_id": "C06",
+    "patient_id": "P006",
+    "plan": "SunCoast Dental PPO",
+    "date_of_service": "2026-11-19",
+    "date_submitted": "2026-11-19",
+    "rendering_provider": "Dr. Elena Ruiz",
+    "procedures": [
+      {
+        "code": "D2391",
+        "fee": 185,
+        "tooth": "30"
+      }
+    ],
+    "attachments": [],
+    "preauth_number": null,
+    "payment_to": "office"
+  },
+  {
+    "claim_id": "C07",
+    "patient_id": "P006",
+    "plan": "SunCoast Dental PPO",
+    "date_of_service": "2026-11-20",
+    "date_submitted": "2026-11-20",
+    "rendering_provider": "Dr. Elena Ruiz",
+    "procedures": [
+      {
+        "code": "D2392",
+        "fee": 235,
+        "tooth": "19",
+        "surface": "O"
+      }
+    ],
+    "attachments": [],
+    "preauth_number": null,
+    "payment_to": "office"
+  },
+  {
+    "claim_id": "C08",
+    "patient_id": "P008",
+    "plan": "SunCoast Dental PPO",
+    "date_of_service": "2026-07-10",
+    "date_submitted": "2026-11-20",
+    "rendering_provider": "Dr. Elena Ruiz",
+    "procedures": [
+      {
+        "code": "D2391",
+        "fee": 185,
+        "tooth": "12",
+        "surface": "O"
+      }
+    ],
+    "attachments": [],
+    "preauth_number": null,
+    "payment_to": "office"
+  },
+  {
+    "claim_id": "C09",
+    "patient_id": "P009",
+    "plan": "BlueWave Dental HMO",
+    "date_of_service": "2026-11-19",
+    "date_submitted": "2026-11-19",
+    "rendering_provider": "Brian Ortega, RDH",
+    "procedures": [
+      {
+        "code": "D0120",
+        "fee": 65
+      },
+      {
+        "code": "D1110",
+        "fee": 110
+      }
+    ],
+    "attachments": [],
+    "preauth_number": null,
+    "payment_to": "office"
+  },
+  {
+    "claim_id": "C10",
+    "patient_id": "P010",
+    "plan": "SunState Kids",
+    "date_of_service": "2026-11-18",
+    "date_submitted": "2026-11-18",
+    "rendering_provider": "Dr. Marcus Bell",
+    "procedures": [
+      {
+        "code": "D2740",
+        "fee": 1250,
+        "tooth": "30"
+      }
+    ],
+    "attachments": [
+      "pre-op x-ray",
+      "narrative"
+    ],
+    "preauth_number": null,
+    "payment_to": "office"
+  },
+  {
+    "claim_id": "C11",
+    "patient_id": "P011",
+    "plan": "SunCoast Dental PPO",
+    "date_of_service": "2026-11-18",
+    "date_submitted": "2026-11-18",
+    "rendering_provider": "Tasha Nguyen, RDH",
+    "procedures": [
+      {
+        "code": "D1110",
+        "fee": 110
+      },
+      {
+        "code": "D1206",
+        "fee": 40
+      }
+    ],
+    "attachments": [],
+    "preauth_number": null,
+    "payment_to": "office"
+  },
+  {
+    "claim_id": "C12",
+    "patient_id": "P007",
+    "plan": "GuardStar Dental PPO",
+    "date_of_service": "2026-11-19",
+    "date_submitted": "2026-11-19",
+    "rendering_provider": "Dr. Elena Ruiz",
+    "procedures": [
+      {
+        "code": "D2391",
+        "fee": 185,
+        "tooth": "4",
+        "surface": "O"
+      }
+    ],
+    "attachments": [],
+    "preauth_number": null,
+    "payment_to": "office"
+  },
+  {
+    "claim_id": "C13",
+    "patient_id": "P014",
+    "plan": "SunCoast Dental PPO",
+    "date_of_service": "2026-11-20",
+    "date_submitted": "2026-11-20",
+    "rendering_provider": "Brian Ortega, RDH",
+    "procedures": [
+      {
+        "code": "D4341",
+        "fee": 245
+      }
+    ],
+    "attachments": [
+      "periodontal charting",
+      "x-rays (2026-08-20)"
+    ],
+    "preauth_number": null,
+    "payment_to": "office"
+  },
+  {
+    "claim_id": "C14",
+    "patient_id": "P010",
+    "plan": "SunState Kids",
+    "date_of_service": "2026-11-20",
+    "date_submitted": "2026-11-20",
+    "rendering_provider": "Tasha Nguyen, RDH",
+    "procedures": [
+      {
+        "code": "D1120",
+        "fee": 85
+      }
+    ],
+    "attachments": [],
+    "preauth_number": null,
+    "payment_to": "office"
+  },
+  {
+    "claim_id": "C15",
+    "patient_id": "P001",
+    "plan": "SunCoast Dental PPO",
+    "date_of_service": "2026-11-20",
+    "date_submitted": "2026-11-20",
+    "rendering_provider": "Dr. Elena Ruiz",
+    "procedures": [
+      {
+        "code": "D2391",
+        "fee": 185,
+        "tooth": "19",
+        "surface": "O"
+      }
+    ],
+    "attachments": [],
+    "preauth_number": null,
+    "payment_to": "office"
+  },
+  {
+    "claim_id": "C16",
+    "patient_id": "P012",
+    "plan": "BlueWave Dental HMO",
+    "date_of_service": "2026-11-21",
+    "date_submitted": "2026-11-21",
+    "rendering_provider": "Dr. Elena Ruiz",
+    "procedures": [
+      {
+        "code": "D0140",
+        "fee": 95
+      }
+    ],
+    "attachments": [],
+    "preauth_number": null,
+    "payment_to": "office"
+  },
+  {
+    "claim_id": "C17",
+    "patient_id": "P013",
+    "plan": "SunCoast Dental PPO",
+    "date_of_service": "2026-11-19",
+    "date_submitted": "2026-11-19",
+    "rendering_provider": "Dr. Marcus Bell",
+    "procedures": [
+      {
+        "code": "D2740",
+        "fee": 1250,
+        "tooth": "19"
+      }
+    ],
+    "attachments": [
+      "pre-op x-ray",
+      "narrative"
+    ],
+    "preauth_number": "SC-PA-55871",
+    "payment_to": "office"
+  },
+  {
+    "claim_id": "C18",
+    "patient_id": "P017",
+    "plan": "SunCoast Dental PPO",
+    "date_of_service": "2026-11-20",
+    "date_submitted": "2026-11-20",
+    "rendering_provider": "Brian Ortega, RDH",
+    "procedures": [
+      {
+        "code": "D4341",
+        "fee": 245,
+        "quadrant": "UR"
+      }
+    ],
+    "attachments": [
+      "periodontal charting",
+      "x-rays (2026-10-02)"
+    ],
+    "preauth_number": null,
+    "payment_to": "office"
+  },
+  {
+    "claim_id": "C19",
+    "patient_id": "P015",
+    "plan": "SunCoast Dental PPO",
+    "date_of_service": "2026-11-21",
+    "date_submitted": "2026-11-21",
+    "rendering_provider": "Tasha Nguyen, RDH",
+    "procedures": [
+      {
+        "code": "D1110",
+        "fee": 110
+      }
+    ],
+    "attachments": [],
+    "preauth_number": null,
+    "payment_to": "office"
+  },
+  {
+    "claim_id": "C20",
+    "patient_id": "P016",
+    "plan": "GuardStar Dental PPO",
+    "date_of_service": "2026-11-21",
+    "date_submitted": "2026-11-21",
+    "rendering_provider": "Brian Ortega, RDH",
+    "procedures": [
+      {
+        "code": "D1110",
+        "fee": 110
+      }
+    ],
+    "attachments": [],
+    "preauth_number": null,
+    "payment_to": "patient"
+  }
+]

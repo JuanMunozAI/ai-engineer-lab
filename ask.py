@@ -4,6 +4,7 @@ Usage:
     python ask.py "How many cleanings does SunCoast cover?"                  # local 8B
     python ask.py "How many cleanings does SunCoast cover?" --model big      # local 27B
     python ask.py "How many cleanings does SunCoast cover?" --model claude   # Claude
+    python ask.py "How many cleanings does SunCoast cover?" --k 1            # read only 1 card
 """
 import argparse
 import re
@@ -36,9 +37,10 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("question")
     parser.add_argument("--model", choices=MODELS, default="small")
+    parser.add_argument("--k", type=int, default=4, help="how many cards the model gets to read")
     args = parser.parse_args()
     start = time.perf_counter()
-    reply, hits = answer(args.question, args.model)
+    reply, hits = answer(args.question, args.model, k=args.k)
     print(reply)
     print("\nSources:")
     for i, h in enumerate(hits, 1):

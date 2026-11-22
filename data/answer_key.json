@@ -1,0 +1,82 @@
+{
+  "C01": {
+    "verdict": "OK",
+    "reason": "Clean claim: 2nd cleaning of 2026, bitewings once this year."
+  },
+  "C02": {
+    "verdict": "PROBLEM",
+    "reason": "Frequency: 3rd cleaning in calendar year 2026; SunCoast allows 2 per calendar year."
+  },
+  "C03": {
+    "verdict": "PROBLEM",
+    "reason": "Frequency: last cleaning 2026-06-20, only 5 months ago; BlueWave requires 6 months apart."
+  },
+  "C04": {
+    "verdict": "PROBLEM",
+    "reason": "Missing pre-authorization: crown $1,250 is over SunCoast's $400 limit (and office's $1,000 rule)."
+  },
+  "C05": {
+    "verdict": "PROBLEM",
+    "reason": "Missing attachment: crown (D2740) needs a narrative as well as the pre-op X-ray."
+  },
+  "C06": {
+    "verdict": "PROBLEM",
+    "reason": "Missing field: filling D2391 has no surface."
+  },
+  "C07": {
+    "verdict": "PROBLEM",
+    "reason": "Wrong code: only one surface (O) but billed D2392 (two surfaces); should be D2391."
+  },
+  "C08": {
+    "verdict": "PROBLEM",
+    "reason": "Late filing: service 2026-07-10, submitted 2026-11-20 (133 days); SunCoast deadline is 90 days."
+  },
+  "C09": {
+    "verdict": "PROBLEM",
+    "reason": "Eligibility: BlueWave HMO patient is not assigned to Lakeside, so the plan will not pay."
+  },
+  "C10": {
+    "verdict": "PROBLEM",
+    "reason": "Not covered: SunState Kids does not cover porcelain crowns on back teeth (#30 is a molar); use a stainless steel crown."
+  },
+  "C11": {
+    "verdict": "PROBLEM",
+    "reason": "Age limit: fluoride D1206 for a 17-year-old; SunCoast covers fluoride under 16 only."
+  },
+  "C12": {
+    "verdict": "PROBLEM",
+    "reason": "Payment: GuardStar is out of network and pays the patient; collect the fee at the visit instead of billing to the office."
+  },
+  "C13": {
+    "verdict": "PROBLEM",
+    "reason": "Missing field: D4341 has no quadrant."
+  },
+  "C14": {
+    "verdict": "OK",
+    "reason": "Clean claim: child cleaning, last one 2026-04-01 (more than 6 months)."
+  },
+  "C15": {
+    "verdict": "OK",
+    "reason": "Clean claim: one-surface filling with tooth and surface."
+  },
+  "C16": {
+    "verdict": "OK",
+    "reason": "Clean claim: BlueWave emergency exam, patient assigned."
+  },
+  "C17": {
+    "verdict": "PROBLEM",
+    "reason": "Waiting period: member since 2026-06-15 (about 5 months); SunCoast has a 12-month wait for major work like crowns."
+  },
+  "C18": {
+    "verdict": "OK",
+    "reason": "Clean claim: D4341 with quadrant, charting and recent X-rays; $245 is under the pre-auth limit."
+  },
+  "C19": {
+    "verdict": "PROBLEM",
+    "reason": "Wrong code: patient is 10; adult cleaning D1110 is for age 14+, should be D1120."
+  },
+  "C20": {
+    "verdict": "OK",
+    "reason": "Clean claim: GuardStar cleaning with payment to the patient."
+  }
+}

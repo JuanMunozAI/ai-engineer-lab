@@ -1,0 +1,237 @@
+[
+  {
+    "patient_id": "P001",
+    "name": "Maria Testcase",
+    "dob": "1985-03-12",
+    "plan": "SunCoast Dental PPO",
+    "member_since": "2019-01-01",
+    "eligibility_active": true,
+    "history": [
+      {
+        "date": "2026-03-10",
+        "code": "D1110"
+      }
+    ]
+  },
+  {
+    "patient_id": "P002",
+    "name": "Derek Sample",
+    "dob": "1978-07-22",
+    "plan": "SunCoast Dental PPO",
+    "member_since": "2018-06-01",
+    "eligibility_active": true,
+    "history": [
+      {
+        "date": "2026-02-02",
+        "code": "D1110"
+      },
+      {
+        "date": "2026-07-15",
+        "code": "D1110"
+      }
+    ]
+  },
+  {
+    "patient_id": "P003",
+    "name": "Lena Fictional",
+    "dob": "1990-11-05",
+    "plan": "BlueWave Dental HMO",
+    "member_since": "2021-04-01",
+    "eligibility_active": true,
+    "history": [
+      {
+        "date": "2026-06-20",
+        "code": "D1110"
+      }
+    ],
+    "assigned_to_lakeside": true
+  },
+  {
+    "patient_id": "P004",
+    "name": "Omar Madeup",
+    "dob": "1969-01-30",
+    "plan": "SunCoast Dental PPO",
+    "member_since": "2015-09-01",
+    "eligibility_active": true,
+    "history": [
+      {
+        "date": "2026-05-01",
+        "code": "D0120"
+      }
+    ]
+  },
+  {
+    "patient_id": "P005",
+    "name": "Grace Example",
+    "dob": "1972-04-18",
+    "plan": "SunCoast Dental PPO",
+    "member_since": "2016-02-01",
+    "eligibility_active": true,
+    "history": [
+      {
+        "date": "2026-09-01",
+        "code": "D0120"
+      }
+    ]
+  },
+  {
+    "patient_id": "P006",
+    "name": "Victor Notreal",
+    "dob": "1988-12-01",
+    "plan": "SunCoast Dental PPO",
+    "member_since": "2020-01-01",
+    "eligibility_active": true,
+    "history": [
+      {
+        "date": "2026-04-12",
+        "code": "D1110"
+      }
+    ]
+  },
+  {
+    "patient_id": "P007",
+    "name": "Hannah Placeholder",
+    "dob": "1995-06-09",
+    "plan": "GuardStar Dental PPO",
+    "member_since": "2022-01-01",
+    "eligibility_active": true,
+    "history": [
+      {
+        "date": "2026-05-20",
+        "code": "D1110"
+      }
+    ]
+  },
+  {
+    "patient_id": "P008",
+    "name": "Samuel Mock",
+    "dob": "1981-08-14",
+    "plan": "SunCoast Dental PPO",
+    "member_since": "2017-03-01",
+    "eligibility_active": true,
+    "history": [
+      {
+        "date": "2026-01-15",
+        "code": "D1110"
+      }
+    ]
+  },
+  {
+    "patient_id": "P009",
+    "name": "Rosa Invented",
+    "dob": "1993-02-27",
+    "plan": "BlueWave Dental HMO",
+    "member_since": "2023-01-01",
+    "eligibility_active": true,
+    "history": [
+      {
+        "date": "2026-03-01",
+        "code": "D1110"
+      }
+    ],
+    "assigned_to_lakeside": false
+  },
+  {
+    "patient_id": "P010",
+    "name": "Leo Fakename",
+    "dob": "2014-10-03",
+    "plan": "SunState Kids",
+    "member_since": "2020-01-01",
+    "eligibility_active": true,
+    "history": [
+      {
+        "date": "2026-04-01",
+        "code": "D1120"
+      }
+    ]
+  },
+  {
+    "patient_id": "P011",
+    "name": "Ava Pretend",
+    "dob": "2009-05-16",
+    "plan": "SunCoast Dental PPO",
+    "member_since": "2019-01-01",
+    "eligibility_active": true,
+    "history": [
+      {
+        "date": "2026-01-20",
+        "code": "D1110"
+      }
+    ]
+  },
+  {
+    "patient_id": "P012",
+    "name": "Ethan Dummy",
+    "dob": "1976-09-09",
+    "plan": "BlueWave Dental HMO",
+    "member_since": "2019-07-01",
+    "eligibility_active": true,
+    "history": [
+      {
+        "date": "2026-08-01",
+        "code": "D1110"
+      }
+    ],
+    "assigned_to_lakeside": true
+  },
+  {
+    "patient_id": "P013",
+    "name": "Nina Trial",
+    "dob": "1999-03-03",
+    "plan": "SunCoast Dental PPO",
+    "member_since": "2026-06-15",
+    "eligibility_active": true,
+    "history": []
+  },
+  {
+    "patient_id": "P014",
+    "name": "Carlos Sandbox",
+    "dob": "1966-11-11",
+    "plan": "SunCoast Dental PPO",
+    "member_since": "2014-01-01",
+    "eligibility_active": true,
+    "history": [
+      {
+        "date": "2026-08-20",
+        "code": "D0210"
+      }
+    ]
+  },
+  {
+    "patient_id": "P015",
+    "name": "Mia Synthetic",
+    "dob": "2016-07-21",
+    "plan": "SunCoast Dental PPO",
+    "member_since": "2021-01-01",
+    "eligibility_active": true,
+    "history": [
+      {
+        "date": "2026-04-10",
+        "code": "D1120"
+      }
+    ]
+  },
+  {
+    "patient_id": "P016",
+    "name": "Jack Stub",
+    "dob": "1984-01-25",
+    "plan": "GuardStar Dental PPO",
+    "member_since": "2020-01-01",
+    "eligibility_active": true,
+    "history": [
+      {
+        "date": "2026-04-02",
+        "code": "D1110"
+      }
+    ]
+  },
+  {
+    "patient_id": "P017",
+    "name": "Zoe Fixture",
+    "dob": "1991-12-12",
+    "plan": "SunCoast Dental PPO",
+    "member_since": "2018-01-01",
+    "eligibility_active": true,
+    "history": []
+  }
+]
