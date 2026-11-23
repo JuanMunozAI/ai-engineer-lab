@@ -2,6 +2,7 @@
 
 | Model | Runs | Questions | easy | cross-plan | multi-doc | math | trap | Claims | Flip-flops | Sec/question | Sec/claim | Cost/run |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
+| qwen3.8:27b k6 | 2 | 98% | 100% | 100% | 90% | 100% | 100% | - | 0 | 1.8 | - | $0 (local) |
 | qwen3.8:27b v2 | 1 | 94% | 100% | 100% | 70% | 100% | 100% | - | - | 1.8 | - | $0 (local) |
 | qwen3.8:27b | 2 | 89% | 92% | 86% | 75% | 100% | 100% | 100% | 1 | 1.7 | 11.4 | $0 (local) |
 | claude-opus-5-5 v2 | 1 | 98% | 100% | 100% | 90% | 100% | 100% | - | - | 2.7 | - | $0.38 |
@@ -9,7 +10,11 @@
 | qwen3:8b v2 | 1 | 94% | 100% | 86% | 80% | 100% | 100% | - | - | 2.1 | - | $0 (local) |
 | qwen3:8b | 2 | 89% | 92% | 79% | 80% | 100% | 100% | 70% | 5 | 1.6 | 6.9 | $0 (local) |
 
-Search found the right doc(s) for 84% of answerable questions (same search for every model, so a miss here is a search problem, not a model problem).
+Search found the right doc(s) for 91% of answerable questions (same search for every model, so a miss here is a search problem, not a model problem).
+
+## What qwen3.8:27b k6 got wrong
+- run 1 Q41 (multi-doc): missing ['estimate']
+- run 2 Q41 (multi-doc): missing ['estimate']
 
 ## What qwen3.8:27b v2 got wrong
 - run 1 Q41 (multi-doc): missing ['estimate']

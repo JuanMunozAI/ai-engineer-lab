@@ -25,7 +25,7 @@ Question: {question}
 Answer:"""
 
 
-def answer(question: str, model: str = "small", k: int = 4) -> tuple[str, list[dict]]:
+def answer(question: str, model: str = "small", k: int = 6) -> tuple[str, list[dict]]:
     hits = search(question, k=k)                       # 1. find the best cards
     sources = "\n\n".join(f"[{i}] ({h['source']})\n{h['text']}" for i, h in enumerate(hits, 1))
     reply = ask(PROMPT.format(sources=sources, question=question), model)   # 2. let the model read them
@@ -37,7 +37,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("question")
     parser.add_argument("--model", choices=MODELS, default="small")
-    parser.add_argument("--k", type=int, default=4, help="how many cards the model gets to read")
+    parser.add_argument("--k", type=int, default=6, help="how many cards the model gets to read")
     args = parser.parse_args()
     start = time.perf_counter()
     reply, hits = answer(args.question, args.model, k=args.k)

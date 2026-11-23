@@ -70,7 +70,7 @@ def grade_question(q: dict, reply: str, hits: list[dict]) -> dict:
 
 # ---------- 2. The test runs ----------
 
-def run_questions(model: str, questions: list[dict], k: int = 4) -> list[dict]:
+def run_questions(model: str, questions: list[dict], k: int = 6) -> list[dict]:
     graded = []
     for q in questions:
         start = time.perf_counter()
@@ -110,7 +110,7 @@ if __name__ == "__main__":
     parser.add_argument("--runs", type=int, default=3, help="how many times to take the whole test")
     parser.add_argument("--part", choices=["qa", "claims", "all"], default="all")
     parser.add_argument("--limit", type=int, help="only the first N questions and claims (for a quick try)")
-    parser.add_argument("--k", type=int, default=4, help="how many cards search hands the model")
+    parser.add_argument("--k", type=int, default=6, help="how many cards search hands the model")
     parser.add_argument("--tag", default="", help="a label for this try, e.g. v2, so old results are kept")
     args = parser.parse_args()
 
