@@ -2,3 +2,4 @@ anthropic
 ollama
 chromadb
 streamlit
+mcp
