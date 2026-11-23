@@ -17,7 +17,7 @@ import anthropic
 import ollama
 
 from ingest import search
-from llm import MODELS
+from llm import MODELS, USAGE
 
 MODEL = "claude-opus-5-5"
 DATA = Path("data")
@@ -152,6 +152,8 @@ def check_claim(claim_id: str, verbose: bool = True) -> tuple[str, int]:
             output_config={"effort": "medium"},
             betas=["server-side-fallback-2026-07-01"], fallbacks="default",
         )
+        USAGE["input"] += resp.usage.input_tokens
+        USAGE["output"] += resp.usage.output_tokens
         if resp.stop_reason == "refusal":
             return "VERDICT: PROBLEM - Claude declined to review this claim", tool_calls
         messages.append({"role": "assistant", "content": resp.content})

@@ -1,6 +1,7 @@
 # Office Hours and Contact Information
 Lakeside Family Dental (fictional practice for training)
 
+## Contact
 **Address:** 410 Heron Lake Blvd, Suite 200, Kissimmee, FL 34741
 **Main phone:** (407) 555-0142
 **Text line (appointments only):** (407) 555-0199

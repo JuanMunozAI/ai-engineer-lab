@@ -14,6 +14,9 @@ MODELS = {
     "claude": "claude-opus-5-5", # frontier model through the API
 }
 
+# Running total of Claude tokens, so the eval can work out the cost.
+USAGE = {"input": 0, "output": 0}
+
 
 def ask(prompt: str, model: str = "small") -> str:
     """Return the model's answer as plain text."""
@@ -28,6 +31,8 @@ def ask(prompt: str, model: str = "small") -> str:
             betas=["server-side-fallback-2026-07-01"],
             fallbacks="default",  # retry on another model if this one declines
         )
+        USAGE["input"] += resp.usage.input_tokens
+        USAGE["output"] += resp.usage.output_tokens
         if resp.stop_reason == "refusal":
             return "[Claude declined this request]"
         return "".join(b.text for b in resp.content if b.type == "text")

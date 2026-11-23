@@ -1,0 +1,571 @@
+{
+  "model": "claude",
+  "model_name": "claude-opus-5-5 v2",
+  "part": "qa",
+  "limit": null,
+  "runs": [
+    {
+      "run": 1,
+      "qa": [
+        {
+          "id": "Q01",
+          "type": "easy",
+          "passed": true,
+          "missing": [],
+          "said_idk": false,
+          "cited": true,
+          "search_found_sources": true,
+          "answer": "**We charge $35.**\n\n- Patients must cancel at least 48 hours before their appointment [3], so a 24-hour cancellation counts as a late cancellation.\n- The late cancellation fee for a hygiene appointment, such as a cleaning, is **$35** [1].\n\n**Exceptions:**\n- **Once-a-year waiver:** The front desk can waive the fee once per patient per calendar year. If you do, note the waiver in the patient's account notes [1].\n- **Always waived:** Medical emergencies and county-declared severe weather [1].",
+          "seconds": 3.0
+        },
+        {
+          "id": "Q02",
+          "type": "easy",
+          "passed": true,
+          "missing": [],
+          "said_idk": false,
+          "cited": true,
+          "search_found_sources": true,
+          "answer": "The office is at 410 Heron Lake Blvd, Suite 200, Kissimmee, FL 34741 [1].",
+          "seconds": 1.1
+        },
+        {
+          "id": "Q03",
+          "type": "cross-plan",
+          "passed": true,
+          "missing": [],
+          "said_idk": false,
+          "cited": true,
+          "search_found_sources": false,
+          "answer": "**SunCoast patient: Yes.** SunCoast PPO covers 2 cleanings per calendar year with no 6-month spacing rule [1][4]. Since May 1 was this patient's first cleaning of the year, an October 1 cleaning would be their second and should be covered [1].\n\n**BlueWave patient: Not covered on October 1.** BlueWave Dental HMO allows 2 cleanings per year but requires them to be at least 6 months apart [4][1]. May 1 to October 1 is only 5 months.\n- The earliest covered date would be on or after November 1, which is 6 months after May 1 [4].\n- If the patient still wants October 1, tell them the self-pay fee before booking. For an adult cleaning, that fee is $120 [1].\n\n**Reminder:** Always check the patient's insurance frequency rule before booking the recall appointment [3].",
+          "seconds": 6.1
+        },
+        {
+          "id": "Q04",
+          "type": "multi-doc",
+          "passed": true,
+          "missing": [],
+          "said_idk": false,
+          "cited": true,
+          "search_found_sources": true,
+          "answer": "**Charge $35.**\n\n- A patient more than 15 minutes late for a hygiene visit must be rescheduled unless the provider agrees to see them [1].\n- A late arrival that has to be rescheduled counts as a late cancellation, and the late cancellation fee applies [1].\n- The late cancellation fee for a hygiene appointment is **$35** [3].\n\n**Exceptions:**\n- You may waive the fee once per patient per calendar year at your discretion. If you do, note the waiver in the patient's account notes [3].\n- Always waive the fee if the lateness was due to a medical emergency or county-declared severe weather [3].\n\n*Note: This assumes the cleaning is booked as a hygiene appointment. If it was booked as a doctor visit, the fee would be $50 [3].*",
+          "seconds": 4.3
+        },
+        {
+          "id": "Q05",
+          "type": "trap",
+          "passed": true,
+          "missing": [],
+          "said_idk": true,
+          "cited": false,
+          "search_found_sources": true,
+          "answer": "I don't know, please check with the office manager. None of the available sources list a price for teeth whitening.",
+          "seconds": 1.8
+        },
+        {
+          "id": "Q06",
+          "type": "easy",
+          "passed": true,
+          "missing": [],
+          "said_idk": false,
+          "cited": true,
+          "search_found_sources": true,
+          "answer": "The main phone number for Lakeside Family Dental is **(407) 555-0142** [3].\n\nThe front desk doesn't answer phones from 12:00 PM to 1:00 PM Monday through Thursday. Calls during that time go to voicemail and are returned by 1:30 PM [1].",
+          "seconds": 2.0
+        },
+        {
+          "id": "Q07",
+          "type": "easy",
+          "passed": true,
+          "missing": [],
+          "said_idk": false,
+          "cited": true,
+          "search_found_sources": true,
+          "answer": "On Fridays, the office is open **7:30 AM to 1:00 PM** [1].\n\nOn the **last Friday of each month**, the office closes early at **11:00 AM** for the staff meeting [3].",
+          "seconds": 2.1
+        },
+        {
+          "id": "Q08",
+          "type": "easy",
+          "passed": true,
+          "missing": [],
+          "said_idk": false,
+          "cited": true,
+          "search_found_sources": true,
+          "answer": "The no-show fee is **$75**. A no-show is when the patient doesn't arrive and doesn't call [1].\n\n- **Waivers:** The front desk may waive the fee once per patient per calendar year. If you do, note the waiver in the patient's account notes [1]. Fees are always waived for medical emergencies and county-declared severe weather [1].\n- **Patients under 18:** The fee is charged to the responsible party on the account [2].\n- **Missed confirmations:** Not receiving or missing a confirmation text does not excuse a no-show [4].\n- **Repeat no-shows:** After three no-shows within 12 months, the patient may only book same-day appointments for the next 6 months, unless the office manager approves an exception [3].",
+          "seconds": 2.8
+        },
+        {
+          "id": "Q09",
+          "type": "easy",
+          "passed": true,
+          "missing": [],
+          "said_idk": false,
+          "cited": true,
+          "search_found_sources": true,
+          "answer": "Under the three-strike rule, **three** no-shows within 12 months trigger the restriction [1]. After that, the patient may only book **same-day appointments for the next 6 months** [1]. Any exception must be approved by the office manager [1].",
+          "seconds": 2.1
+        },
+        {
+          "id": "Q10",
+          "type": "easy",
+          "passed": true,
+          "missing": [],
+          "said_idk": false,
+          "cited": true,
+          "search_found_sources": true,
+          "answer": "New patients should arrive **15 minutes early** for their first visit [1]. If they haven't completed the digital intake packet, they'll be given a tablet in the waiting room to finish it [1]. We'll also scan their photo ID and insurance card if they weren't uploaded beforehand [1].",
+          "seconds": 2.7
+        },
+        {
+          "id": "Q11",
+          "type": "easy",
+          "passed": true,
+          "missing": [],
+          "said_idk": false,
+          "cited": true,
+          "search_found_sources": true,
+          "answer": "The Lakeside Smile Club costs **$29 per month or $299 per year** [2]. It's an in-house membership for patients without insurance [2].\n\nIt includes:\n- 2 cleanings, 2 exams, and 1 set of bitewing X-rays per year [2]\n- 20% off other treatment [2]",
+          "seconds": 1.7
+        },
+        {
+          "id": "Q12",
+          "type": "easy",
+          "passed": true,
+          "missing": [],
+          "said_idk": false,
+          "cited": true,
+          "search_found_sources": true,
+          "answer": "For an in-house payment plan, the down payment is **25%** of the treatment cost [1][2]. The remaining balance can be split over a **maximum of 6 months**, interest free [1][2].\n\nThese plans are available for treatment over $500 [1][2]. For treatment over $3,000, patients are referred to our financing partner, BrightPay Health, which offers 12 to 24 month plans [1].",
+          "seconds": 2.0
+        },
+        {
+          "id": "Q13",
+          "type": "easy",
+          "passed": true,
+          "missing": [],
+          "said_idk": false,
+          "cited": true,
+          "search_found_sources": true,
+          "answer": "Records requests must be fulfilled within **15 business days** [1]. Patients request their records using the Records Release Form [1].\n\nA few related details:\n- Electronic copies (secure email or patient portal) are free. Paper copies cost $0.50 per page after the first 10 pages [1].\n- X-rays are provided digitally on request [1].\n- If the records are going to another office, a signed release from the patient (or parent/guardian for minors) must be on file before anything is faxed or emailed [2].",
+          "seconds": 2.3
+        },
+        {
+          "id": "Q14",
+          "type": "easy",
+          "passed": true,
+          "missing": [],
+          "said_idk": false,
+          "cited": true,
+          "search_found_sources": true,
+          "answer": "The after-hours voicemail gives the on-call doctor's pager number: **(407) 555-0177** [1]. The on-call doctor rotates weekly between Dr. Ruiz and Dr. Bell [1].\n\nIf a patient has swelling that affects breathing or swallowing, a high fever with facial swelling, or a jaw injury from an accident, tell them to go to the emergency room or call 911 [4].",
+          "seconds": 2.2
+        },
+        {
+          "id": "Q15",
+          "type": "easy",
+          "passed": true,
+          "missing": [],
+          "said_idk": false,
+          "cited": true,
+          "search_found_sources": true,
+          "answer": "They should come in **within 60 minutes** [1]. A knocked-out permanent tooth counts as a dental emergency [3].\n\nUntil they arrive, they should:\n- Pick the tooth up by the crown, not the root [1].\n- Rinse it gently [1].\n- Try to put it back in the socket, or keep it in milk [1].",
+          "seconds": 2.0
+        },
+        {
+          "id": "Q16",
+          "type": "easy",
+          "passed": true,
+          "missing": [],
+          "said_idk": false,
+          "cited": true,
+          "search_found_sources": true,
+          "answer": "A minor aged **14 to 17** may attend a routine cleaning without a parent, as long as a signed **Minor Attendance Form** is on file [1].\n\nA few conditions apply:\n- This applies only to routine cleanings **after the first visit**. A parent or guardian must be present for the first visit [1][4].\n- A parent or guardian must also be present for any treatment involving numbing, extractions, or sedation [1].\n- Patients under 18 need a parent or legal guardian to sign consent forms [1].",
+          "seconds": 2.7
+        },
+        {
+          "id": "Q17",
+          "type": "easy",
+          "passed": true,
+          "missing": [],
+          "said_idk": false,
+          "cited": true,
+          "search_found_sources": true,
+          "answer": "The SunCoast Dental PPO annual maximum is **$1,500 per person** [1].",
+          "seconds": 1.9
+        },
+        {
+          "id": "Q18",
+          "type": "easy",
+          "passed": true,
+          "missing": [],
+          "said_idk": false,
+          "cited": true,
+          "search_found_sources": true,
+          "answer": "You have **90 days from the date of service** to file a SunCoast Dental PPO claim [1][2]. However, office procedure is to submit claims electronically **the same day** as the appointment [1], using payer ID **SCD01** [2].",
+          "seconds": 1.8
+        },
+        {
+          "id": "Q19",
+          "type": "easy",
+          "passed": true,
+          "missing": [],
+          "said_idk": false,
+          "cited": true,
+          "search_found_sources": true,
+          "answer": "A BlueWave Dental HMO patient's copay for a porcelain crown (D2740) is **$450** [1].\n\nBefore the visit, confirm on the BlueWave portal that the patient is still assigned to Lakeside Family Dental [3]. If they aren't, the plan will not pay [1].",
+          "seconds": 1.8
+        },
+        {
+          "id": "Q20",
+          "type": "easy",
+          "passed": true,
+          "missing": [],
+          "said_idk": false,
+          "cited": true,
+          "search_found_sources": false,
+          "answer": "No, Lakeside Family Dental is **out of network** with GuardStar Dental PPO [1]. Patients with GuardStar can still be seen [1].\n\nFor GuardStar patients:\n- GuardStar pays the **patient** directly for out-of-network claims, not the office [4].\n- The full fee is collected at the time of service, and the patient receives a claim form to submit [4].",
+          "seconds": 2.5
+        },
+        {
+          "id": "Q21",
+          "type": "easy",
+          "passed": true,
+          "missing": [],
+          "said_idk": false,
+          "cited": true,
+          "search_found_sources": true,
+          "answer": "The lab (Coastline Dental Lab) has a standard turnaround of **10 business days** after the scan is sent [2]. Because of this, the seat appointment is booked **2 weeks** after the prep visit, and the office confirms the crown has arrived from the lab 2 days before that appointment [1].",
+          "seconds": 1.9
+        },
+        {
+          "id": "Q22",
+          "type": "easy",
+          "passed": true,
+          "missing": [],
+          "said_idk": false,
+          "cited": true,
+          "search_found_sources": false,
+          "answer": "Bill the crown (D2740) on the **seat date**, not the prep date [1]. Insurance pays on the date the crown is permanently placed [1].\n\nThe seat appointment is booked **2 weeks** after the prep [2].",
+          "seconds": 1.6
+        },
+        {
+          "id": "Q23",
+          "type": "easy",
+          "passed": true,
+          "missing": [],
+          "said_idk": false,
+          "cited": true,
+          "search_found_sources": true,
+          "answer": "The self-pay price for bitewing X-rays is **$65** [1]. If a patient's insurance won't pay because of frequency limits, we tell them this cost before taking the X-rays [1].\n\nPatients without insurance can also join the Lakeside Smile Club for $29 per month or $299 per year. Membership includes 1 set of bitewing X-rays per year, plus 2 cleanings, 2 exams, and 20% off other treatment [3].",
+          "seconds": 2.8
+        },
+        {
+          "id": "Q24",
+          "type": "easy",
+          "passed": true,
+          "missing": [],
+          "said_idk": false,
+          "cited": true,
+          "search_found_sources": true,
+          "answer": "Nitrous oxide (laughing gas) costs $55 per visit [1]. If you need IV sedation instead, we refer you to a partner oral surgeon [1].",
+          "seconds": 1.1
+        },
+        {
+          "id": "Q25",
+          "type": "easy",
+          "passed": true,
+          "missing": [],
+          "said_idk": false,
+          "cited": true,
+          "search_found_sources": true,
+          "answer": "If a new patient's blood pressure is **above 180/110**, we do not provide treatment that day and refer the patient to their physician [2]. The hygienist takes the blood pressure while reviewing the patient's medical history at the start of the new patient exam [2].",
+          "seconds": 1.9
+        },
+        {
+          "id": "Q26",
+          "type": "easy",
+          "passed": true,
+          "missing": [],
+          "said_idk": true,
+          "cited": true,
+          "search_found_sources": true,
+          "answer": "Use **D2392** for a two-surface MO filling on a back tooth. Don't use D2391, which is for one surface only [1].\n\n- D2392 is a tooth-colored filling, two surfaces, back tooth [1].\n- The claim must include the tooth number and surfaces (here, M and O) [1].\n- The self-pay office fee is $235 [1].\n\nThe sources only list codes for **tooth-colored** fillings. If this is a silver (amalgam) filling, I don't know the code. Please check with the office manager.",
+          "seconds": 2.9
+        },
+        {
+          "id": "Q27",
+          "type": "easy",
+          "passed": true,
+          "missing": [],
+          "said_idk": false,
+          "cited": true,
+          "search_found_sources": true,
+          "answer": "Both D4341 and D4342 are deep cleanings (scaling and root planing). The difference is **how many teeth in the quadrant** are treated:\n\n- **D4341:** 4 or more teeth in a quadrant [1]. The self-pay fee is $245 per quadrant [1].\n- **D4342:** 1 to 3 teeth in a quadrant [1]. The self-pay fee is $175 per quadrant [1].\n\n**What they have in common:**\n- Both require the quadrant on the claim: UR, UL, LR, or LL [1].\n- Claims for either code need perio charting showing pockets of 4 mm or more, plus recent X-rays [1].\n- Most insurers allow either code once per quadrant every 24 months [1].\n- After a deep cleaning, the patient moves to periodontal maintenance (D4910) every 3 months [1].\n- A patient with active gum disease needs D4341 or D4342 before a regular adult cleaning (D1110) [4].",
+          "seconds": 4.5
+        },
+        {
+          "id": "Q28",
+          "type": "math",
+          "passed": true,
+          "missing": [],
+          "said_idk": false,
+          "cited": true,
+          "search_found_sources": false,
+          "answer": "The total self-pay office fee is **$1,545**: $1,250 for the crown plus $295 for the buildup [1].\n\nSince the treatment is over $500, the patient can use our in-house payment plan: 25% down, with the balance paid over up to 6 months [2].",
+          "seconds": 1.9
+        },
+        {
+          "id": "Q29",
+          "type": "easy",
+          "passed": true,
+          "missing": [],
+          "said_idk": false,
+          "cited": true,
+          "search_found_sources": true,
+          "answer": "The office is open on the **first and third Saturday of each month only**, from 8:00 AM to 12:00 PM [1]. Saturday hours are for **hygiene appointments only** [1].",
+          "seconds": 2.1
+        },
+        {
+          "id": "Q30",
+          "type": "cross-plan",
+          "passed": true,
+          "missing": [],
+          "said_idk": false,
+          "cited": true,
+          "search_found_sources": false,
+          "answer": "Two plans require 6 months between cleanings:\n\n- **BlueWave Dental HMO** requires 6 months between cleanings [1]. Its plan summary confirms 2 cleanings per year, at least 6 months apart [4].\n- **SunState Kids** also requires 6 months between cleanings [1].\n\n**SunCoast PPO** works differently. It counts 2 cleanings per calendar year rather than requiring 6 months between them [1][4].\n\nIf a cleaning won't be covered, tell the patient the self-pay fee ($120 for an adult cleaning) before booking [1].\n\nThe sources don't confirm whether these plans are in-network or list all of our in-network plans. For a complete list, please check with the office manager.",
+          "seconds": 4.1
+        },
+        {
+          "id": "Q31",
+          "type": "cross-plan",
+          "passed": true,
+          "missing": [],
+          "said_idk": false,
+          "cited": true,
+          "search_found_sources": true,
+          "answer": "**SunCoast Dental PPO** covers a full-mouth or panoramic X-ray **once every 5 years** [2].\n\n**BlueWave Dental HMO** covers full-mouth X-rays **once every 3 years** [1].\n\nSo BlueWave allows one two years sooner than SunCoast. Note that SunCoast's limit covers full-mouth *or* panoramic X-rays together [2]. If the plan won't pay, tell the patient the self-pay cost before taking the X-ray: $145 for a full-mouth series [3].",
+          "seconds": 2.6
+        },
+        {
+          "id": "Q32",
+          "type": "cross-plan",
+          "passed": true,
+          "missing": [],
+          "said_idk": false,
+          "cited": true,
+          "search_found_sources": true,
+          "answer": "Under **SunCoast Dental PPO**, a crown on the same tooth can be replaced **once every 5 years** [1].\n\nUnder **GuardStar Dental PPO**, a crown on the same tooth can be replaced **once every 7 years** [2].\n\nSo SunCoast allows replacement two years sooner than GuardStar.",
+          "seconds": 2.5
+        },
+        {
+          "id": "Q33",
+          "type": "cross-plan",
+          "passed": true,
+          "missing": [],
+          "said_idk": false,
+          "cited": true,
+          "search_found_sources": true,
+          "answer": "Lakeside Family Dental is in network with these plans:\n\n- **SunCoast Dental PPO** [1]\n- **BlueWave Dental HMO** [1]\n- **SunState Kids program** [1]\n\nPatients with other insurance plans are seen as out of network [1]. For example, Lakeside is out of network with GuardStar Dental PPO, but GuardStar patients can still be seen [3].",
+          "seconds": 2.0
+        },
+        {
+          "id": "Q34",
+          "type": "cross-plan",
+          "passed": true,
+          "missing": [],
+          "said_idk": false,
+          "cited": true,
+          "search_found_sources": true,
+          "answer": "SunCoast Dental PPO has a **$50 per-person deductible** (with a $150 family maximum), and the deductible is waived for preventive care [2]. GuardStar Dental PPO has a **$75 per-person deductible** [1].\n\nSo SunCoast's per-person deductible is $25 lower than GuardStar's.\n\nLakeside Family Dental is in network with SunCoast [2] but out of network with GuardStar [1].",
+          "seconds": 2.2
+        },
+        {
+          "id": "Q35",
+          "type": "cross-plan",
+          "passed": true,
+          "missing": [],
+          "said_idk": false,
+          "cited": true,
+          "search_found_sources": true,
+          "answer": "**SunCoast Dental PPO** covers **1 set of bitewing X-rays per calendar year** [3].\n\n**GuardStar Dental PPO** covers **1 set of bitewing X-rays every 2 years** for adults [2].\n\nGuardStar covers bitewings half as often as SunCoast.\n\n**Also good to know:**\n- Our office default for adults is bitewings every 12 months, or every 24 months for low-risk adults [1].\n- Always check the patient's insurance frequency limits before taking X-rays. If the plan won't pay, tell the patient the self-pay cost first, which is $65 for bitewings [1].\n- Lakeside Family Dental is out of network with GuardStar, though patients may still be seen [4].",
+          "seconds": 4.0
+        },
+        {
+          "id": "Q36",
+          "type": "multi-doc",
+          "passed": true,
+          "missing": [],
+          "said_idk": false,
+          "cited": true,
+          "search_found_sources": false,
+          "answer": "**Yes, a pre-authorization is needed, for two reasons:**\n\n1. **SunCoast PPO requires it** for any single treatment over $400 [2]. A $1,250 crown is well above that.\n2. **Our office policy requires it** for any treatment plan over $1,000 with any insurance, even if the insurer doesn't, so the patient knows their cost [2].\n\nAlso, when an insured patient asks about crown cost, we offer a pre-authorization and never guess [1]. Note that $1,250 is our self-pay price, and a buildup adds $295 if needed [1].\n\n**Next steps:**\n- The doctor finalizes the treatment plan in ChairSide PM [4].\n- Submit the pre-authorization electronically with the same attachments a claim would need [4].\n- Tell the patient most insurers respond within 2 to 4 weeks [4].\n- When the response arrives, call the patient to review their estimated cost and schedule [4].\n- At the crown prep visit, the team confirms pre-authorization status and the estimated cost before starting [3].\n\n**Exception:** If the treatment is urgent (infection or severe pain), it does not wait for the pre-authorization. The doctor documents the urgency in the chart [4].",
+          "seconds": 4.8
+        },
+        {
+          "id": "Q37",
+          "type": "multi-doc",
+          "passed": true,
+          "missing": [],
+          "said_idk": false,
+          "cited": true,
+          "search_found_sources": true,
+          "answer": "Yes, we still send a pre-authorization.\n\n- **BlueWave doesn't require it here.** BlueWave HMO only requires pre-authorization for specialist referrals [1].\n- **Our office policy does.** We send a pre-authorization for any treatment plan over $1,000 with any insurance, even when the insurer doesn't require it, so the patient knows their cost [1]. At $1,200, this plan qualifies.\n\n**Next steps:**\n1. Make sure the doctor has finalized the treatment plan in ChairSide PM [2].\n2. Submit the pre-authorization electronically with the same attachments a claim would need [2].\n3. Tell the patient most insurers respond within 2 to 4 weeks [2].\n4. When the response arrives, call the patient to review their estimated cost and schedule [2].\n\nIf any of the treatment is urgent (infection, severe pain), it doesn't wait for the pre-authorization. The doctor documents the urgency in the chart [2].",
+          "seconds": 4.1
+        },
+        {
+          "id": "Q38",
+          "type": "multi-doc",
+          "passed": true,
+          "missing": [],
+          "said_idk": true,
+          "cited": true,
+          "search_found_sources": true,
+          "answer": "**No, not to SunState Kids.** Porcelain crowns on back teeth are not covered; a **stainless steel crown** is covered instead [3]. Covered services have no copays or deductibles [3].\n\nBefore the visit:\n- **Confirm the patient is under 21.** We only accept SunState Kids for patients under 21 [3].\n- **Check eligibility on the day of the visit**, since coverage can end in any month [3].\n- **Bill on the seat date.** Crowns are billed on the day the crown is permanently placed, not the prep date [4].\n\nIf the family wants a porcelain crown anyway, the sources don't say whether we can charge them privately for it under this program. I don't know, please check with the office manager.",
+          "seconds": 4.5
+        },
+        {
+          "id": "Q39",
+          "type": "multi-doc",
+          "passed": true,
+          "missing": [],
+          "said_idk": false,
+          "cited": true,
+          "search_found_sources": true,
+          "answer": "Yes. SunCoast Dental PPO covers fluoride for patients **under age 16**, so a 15-year-old qualifies [2]. It's covered **twice per year** [2].\n\nWhen billing, use code D1206 (fluoride varnish), and check the plan's age limit (under 16 for SunCoast) [4].\n\nThe sources don't say what percentage SunCoast pays for fluoride. The plan lists preventive care as \"exams, cleanings, X-rays\" at 100% but doesn't name fluoride [3]. For the exact cost to the patient, please check with the office manager.",
+          "seconds": 3.1
+        },
+        {
+          "id": "Q40",
+          "type": "multi-doc",
+          "passed": true,
+          "missing": [],
+          "said_idk": false,
+          "cited": true,
+          "search_found_sources": true,
+          "answer": "Before the patient sees an oral surgeon, **BlueWave must approve a referral, and the approval has to come before the appointment** [1]. Approval takes **5 to 7 business days** [1], so schedule the oral surgeon appointment far enough out to allow for it.",
+          "seconds": 2.6
+        },
+        {
+          "id": "Q41",
+          "type": "multi-doc",
+          "passed": true,
+          "missing": [],
+          "said_idk": true,
+          "cited": true,
+          "search_found_sources": false,
+          "answer": "**It depends on whether we're out-of-network with GuardStar for this patient. Our sources don't say, so please confirm that first.**\n\n**If we're out-of-network:**\n- Collect the full $400 at the time of service [1].\n- Give the patient a claim form. GuardStar pays the patient directly for out-of-network claims, not the office [1].\n\n**If we're in-network:**\n- The sources don't cover GuardStar's in-network handling. Under our general policy, we collect the estimated patient portion at the time of service, based on insurance verification [3].\n- We bill any difference after insurance pays [3].\n\n**Other notes:**\n- GuardStar has no waiting periods, so coverage timing shouldn't be an issue [1].\n- This patient can't use a payment plan, because we offer those only for treatment over $500 [4].\n\nIf you can't confirm our network status with GuardStar, I don't know, please check with the office manager.",
+          "seconds": 5.0
+        },
+        {
+          "id": "Q42",
+          "type": "multi-doc",
+          "passed": true,
+          "missing": [],
+          "said_idk": true,
+          "cited": true,
+          "search_found_sources": true,
+          "answer": "For a $4,000 treatment plan, refer the patient to our third-party financing partner, **BrightPay Health**, which offers **12 to 24 month plans** [3]. Our policy sends any treatment over $3,000 to BrightPay [3].\n\n**About our in-house plan:** It's available for treatment over $500, with 25% down and the balance split over up to 6 months, interest free [3]. The Front Desk FAQ says to offer it for treatment over $500 [1], but it doesn't mention the $3,000 referral rule. The sources don't say whether we can still offer the in-house plan above $3,000. For an exception, I don't know, please check with the office manager.\n\n**Other things to mention:**\n- **If the patient has insurance:** Our office requires a pre-treatment estimate for any treatment plan over $1,000, so the patient knows their cost before committing [4].\n- **If the patient doesn't have insurance:** Suggest they ask about the Lakeside Smile Club [2]. The sources don't give details on how it works or whether it lowers the cost.",
+          "seconds": 5.5
+        },
+        {
+          "id": "Q43",
+          "type": "multi-doc",
+          "passed": false,
+          "missing": [
+            "10:30",
+            "2:30"
+          ],
+          "said_idk": true,
+          "cited": true,
+          "search_found_sources": true,
+          "answer": "**What to do:**\n\n- **Book the next emergency slot today.** Pain of 7 or higher qualifies for a same-day emergency appointment, even without swelling [1].\n- **Finish the triage questions** to make sure nothing more urgent is going on [3]:\n  - Which tooth or area hurts, and since when?\n  - Do you have a fever?\n  - Does the pain wake you up at night or linger after hot or cold?\n- **Send them to the ER or have them call 911 instead** if any of these come up [1][2]:\n  - Swelling that affects breathing or swallowing\n  - High fever with facial swelling\n  - A jaw injury from an accident\n- **Don't diagnose or recommend prescription medicine** over the phone. Only the doctor can do that [1].\n\n**Times available on a Tuesday:**\nI don't know, please check with the office manager. The sources don't list office hours or emergency slot times.",
+          "seconds": 4.6
+        },
+        {
+          "id": "Q44",
+          "type": "multi-doc",
+          "passed": true,
+          "missing": [],
+          "said_idk": false,
+          "cited": true,
+          "search_found_sources": true,
+          "answer": "Use **D0150 (Comprehensive exam)**. This code covers new patients and existing patients who haven't been seen in 3 or more years [1]. Since this patient was last seen 4 years ago, D0150 applies.\n\n- **D0120** (periodic exam) is for existing patients seen within the last 3 years, typically at recall visits [1]. It doesn't apply here.\n- The doctor makes the final choice of code [1].",
+          "seconds": 2.7
+        },
+        {
+          "id": "Q45",
+          "type": "trap",
+          "passed": true,
+          "missing": [],
+          "said_idk": true,
+          "cited": false,
+          "search_found_sources": true,
+          "answer": "I don't know, please check with the office manager.",
+          "seconds": 1.6
+        },
+        {
+          "id": "Q46",
+          "type": "trap",
+          "passed": true,
+          "missing": [],
+          "said_idk": true,
+          "cited": true,
+          "search_found_sources": true,
+          "answer": "I don't know, please check with the office manager.\n\nThe sources list crown pricing [1] and insurance coverage details [2][3][4], but none of them include the cost of a dental implant.",
+          "seconds": 2.1
+        },
+        {
+          "id": "Q47",
+          "type": "trap",
+          "passed": true,
+          "missing": [],
+          "said_idk": true,
+          "cited": true,
+          "search_found_sources": true,
+          "answer": "I don't know, please check with the office manager.\n\nThe sources list self-pay pricing only for crowns [1], not root canals. The insurance plan summaries also don't say which coverage category root canals fall under [2][3].",
+          "seconds": 2.3
+        },
+        {
+          "id": "Q48",
+          "type": "trap",
+          "passed": true,
+          "missing": [],
+          "said_idk": true,
+          "cited": false,
+          "search_found_sources": true,
+          "answer": "I don't know, please check with the office manager.",
+          "seconds": 1.0
+        },
+        {
+          "id": "Q49",
+          "type": "trap",
+          "passed": true,
+          "missing": [],
+          "said_idk": true,
+          "cited": false,
+          "search_found_sources": true,
+          "answer": "I don't know, please check with the office manager.",
+          "seconds": 2.0
+        },
+        {
+          "id": "Q50",
+          "type": "trap",
+          "passed": true,
+          "missing": [],
+          "said_idk": true,
+          "cited": true,
+          "search_found_sources": true,
+          "answer": "I don't know, please check with the office manager. The office manager is Carla Simmons [1].",
+          "seconds": 1.9
+        }
+      ],
+      "tokens": {
+        "input": 37523,
+        "output": 11286
+      },
+      "cost_usd": 0.3758
+    }
+  ]
+}
